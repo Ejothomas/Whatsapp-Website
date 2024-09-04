@@ -1,0 +1,596 @@
+body{
+    background-color: rgb(247, 245, 242);
+    margin: 0;
+}
+
+/*==================header================================================== */
+.header{
+    
+   
+    
+    width: 100%;
+    height: 100px;
+    column-gap: 100px;
+    display: grid;
+    grid-template-columns: 150px 700px 100px ;
+    align-items: center;
+    margin-top: -10px;
+    position: fixed;
+    z-index: 100;
+    background-color: rgb(255, 255, 255);
+    
+
+    
+
+}
+.ar{
+    width: 15px;
+    margin-left: 10px;
+}
+
+.icon{
+    margin-left: 30px;
+    width: 150px;
+}
+
+.underline:hover{
+   text-decoration:  underline;
+   cursor: pointer;
+
+
+
+}
+.middle-header{
+    display: flex;
+    justify-content: space-between;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.download-button{
+    width: 190px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(62, 216, 62);
+    font-size: 17px;
+    border: none;
+     
+}
+/* --------------------------Header end-----------------------------------------------------------------------------------------------*/
+.large-img{
+    width: 97%;
+    margin-left: 20px;
+    border-radius: 15px;
+    position: relative;
+    margin-top: 130px;
+}
+
+
+.morning{
+    width: 400px;
+    position: absolute;
+    top: 150px;
+    right: 110px;
+}
+.voice{
+    width: 400px;
+    position: absolute;
+    top: 320px;
+    right: 13%;
+}
+.sad{
+    position: absolute;
+    width: 20px;
+    top: 610px;
+    right: 40%;
+    border-radius: 10px;
+}
+.pic{
+    position: absolute;
+    top: 380px;
+    right: 13%;
+    width: 400px;
+}
+.love{
+    width: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 178px;
+    right: 34%;
+}
+.mug{
+    position: absolute;
+    top: 200px;
+    right: 10% ;
+}
+.family{
+    width: 400px;
+    position: absolute;
+    top: 650px;
+    right: 200px;
+}
+.text-img{
+    width: 350px;
+    height: 300px;
+  
+    position: absolute;
+    top: 300px;
+    left: 150px;
+}
+.messg{
+    font-size: 80px;
+    color: white;
+    line-height: 90px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.simple{
+    font-size: 20px;
+    color: rgb(228, 222, 222);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.download-11{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(98, 243, 98);
+    font-size: 17px;
+    position: absolute;
+    top: 350px;
+    border: none;
+}
+.data-charge{
+    text-align: end;
+    margin-right: 20px;
+    font-size: 12px;
+    color: grey;
+    margin-top: 10px;
+}
+.long-img-size{
+    width: 1300px;
+}
+.with-private{
+    text-align: center;
+    font-size: 50px;
+    margin-left: 40px;
+    color: rgb(63, 58, 58);
+    }
+    .be{
+        text-align: center;
+        font-size: 50px;
+        color: rgb(63, 58, 58);
+        margin-left: 10px;
+    }
+    .most{
+        text-align: center;
+        font-size: 50px;
+        margin-left: 40px;
+        color: rgb(63, 58, 58);
+    }
+    .where{
+        text-align: center;
+        font-size: 50px;
+        color: rgb(63, 58, 58);
+    }
+    .iphone-grid-1{
+        display: grid;
+        grid-template-columns: 400px 900px;
+        
+        height: 600px;
+        column-gap: 10px;
+       
+        margin-top: 100px;
+    }
+    .left-grid-1{
+       
+        margin-left: 100px;
+        text-align: center;
+        width: 500px;
+        text-align: start;
+        padding-top: 150px;
+        
+       
+    }
+    .from-a-group{
+        font-size: 19px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .right-grid-1{
+        
+        
+        margin-left: 200px;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    .never{
+        font-size: 70px;
+    
+    }
+    .moment{
+        font-size: 70px;
+    }
+    .voice-t{
+        font-size: 70px;
+        
+    }
+    .calls{
+        font-size: 70px;
+        
+    }
+    .learn{
+        display: inline-block;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-bottom: solid 2px ;
+    border-bottom-color: green;
+        height: 25px;
+        
+    }
+    .learn-more:hover{
+        color: green;
+    }
+    .arrow{
+        display: inline-block;
+        margin-left: 20px;
+    }
+    .learn-more{
+        display: inline-block;
+    }
+    .iphone-grid-2{
+        height: 900px;
+        padding-top: 70px;
+        background-color: rgb(11, 23, 27);
+        margin-top: 200px;
+        display: grid;
+       justify-content: center;
+        grid-template-columns: 590px 500px;
+        column-gap: 10px;
+        
+        
+    }
+    .left-grid-2{
+       
+        width: 100%;
+    }
+    
+    .right-grid-text{
+        margin-top: 200px;
+        margin-left: 70px;
+    }
+    .speak{
+        font-size: 60px;
+        margin-bottom: 0;
+        color: white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .freely{
+        font-size: 60px;
+        color: green;
+        margin-top: 2px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .l{
+        height: 50px;
+       color: white;
+       cursor: pointer;
+       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .l:hover{
+        color: rgb(30, 175, 30);
+    }
+    .end-to-end{
+        color: rgb(219, 202, 202);
+        font-size: 17px;
+        font-weight: 600;
+       
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    }
+    .arrow-2{
+        display: inline-block;
+        margin-left: 20px;
+    }
+    .le{
+        height: 35px;
+        border-bottom: solid 2px;
+        border-bottom-color: green;
+    }
+    .iphone-grid-3{
+        
+        width: 100%;
+        height: 700px;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr;
+    }
+    .left-grid-3{
+        height: 100%;
+        
+    }
+    .right-grid-3{
+        height: 100%;
+       
+        width: 700px;
+        position: relative;
+    }
+    .best-friend{
+        height: 700px;
+      position: absolute;
+      left: 90px;
+       justify-content: center;
+       
+    }
+    .best-friend-text{
+        position: absolute;
+        top: 90px;
+        left: 50px;
+    }
+    .left-grid-3-text{
+        
+        height: 400px;
+        width: 500px;
+        margin-top: 190px;
+        margin-left: 140px;
+    }
+    .keep{
+        font-size: 60px;
+        font-weight: 400;
+        margin-bottom: 0;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+    }
+    .group{
+        font-size: 60px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: 0;
+        font-weight: 400;
+    }
+    .whether{
+        font-size: 22px;
+        color: rgb(29, 26, 26);
+    }
+    .learn-3{
+        display: inline-block;
+        border-bottom: solid 2px;
+        height: 30px;
+        border-bottom-color: green;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    }
+    .le-3:hover{
+    color: green;
+    }
+    .le-3{
+        display: inline-block;
+        
+        
+    }
+    .arrow-3{
+        display: inline-block;
+        margin-left: 20px;
+    }
+    .iphone-grid-4{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    
+    
+    }
+    .left-4{
+      
+        position: relative;
+        
+    }
+    .right-4{
+        
+        display: flex;
+        align-items: center;
+    
+    }
+    .iphone-4-img{
+        
+        margin-left: 240px;
+        margin-top: 130px;
+        
+    
+    }
+    .iphone-4-face{
+        width: 319px;
+        position: absolute;
+        top: 320px;
+        left: 240px;
+    }
+    .text-div-4{
+        margin-top: 190px;
+        line-height: 9px;
+       padding-left: 80px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    
+    .len{
+       display: inline-block;
+        margin-top: 60px;
+        height: 20px;
+        text-decoration: green solid 2px  underline;
+        text-underline-offset: 20px;
+       
+        
+    }
+    .gr{
+        display: inline-block;
+        margin-left: 20px;
+        
+        
+    
+        
+        
+    }
+    .len-div:hover{
+        color: green;
+    }
+    .say{
+    font-size: 60px;
+    font-weight: 100;
+    
+    }
+    .feel{
+        font-size: 60px;
+        font-weight: 100;
+    }
+    .express{
+    font-size: 19px;
+    
+    line-height: 30px;
+    }
+    .iphone-grid-5{
+        
+        width: 100%;
+        margin-top: 60px;
+        height: 700px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .left-5{
+        height: 100%;
+       
+    }
+    
+    .food{
+       
+        margin-left: 110px;
+    }
+    .left-5-text{
+        line-height: 10px;
+        margin-top: 200px;
+        margin-left: 140px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .trans{
+        font-size: 50px;
+        font-weight: 500;
+    }
+    .whatsapp{
+        line-height: 20px;
+        color: rgb(32, 30, 30);
+        font-weight: 500;
+    }
+    .learn-5{
+        text-decoration: solid 2px underline green;
+        text-underline-offset:  15px;
+        display: inline-block;
+    }
+    .learn-5:hover{
+        
+        color: green;
+    }
+    /* ------------------------footer-------------------------------------------------------------*/
+    .footer-container{
+        background-color: rgb(2, 2, 2);
+        height: 600px;
+       padding-top: 20px;
+       color: white;
+        
+    
+    }
+    .footer-container-box{
+       
+        height: 310px;
+        width: 95%;
+        padding-left: 120px;
+        margin-left: 20px;
+        margin-top: 50px;
+        display: flex ;
+       
+       
+        
+    }
+    .footer-box{
+        
+        width: 200px;
+        margin-top: 40px;
+        
+        height: 200px;
+        
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
+        font-size: 19px;
+        
+      
+    
+    }
+    .footer-whatsapp{
+        width: 150px;
+    }
+    .footer-dwn{
+        margin-top: 90px;
+        width: 180px;
+        height: 60px;
+        border-radius: 50px;
+        background-color: rgb(73, 241, 73);
+        font-size: 16px;
+        border: none;
+        
+    }
+    .who{
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+    .final{
+        
+        width: 1000px;
+        height: 200px;
+        margin-left: 150px;
+        display: flex;
+        align-items: center;
+        
+    }
+    .las-lo{
+        width: 250px;
+        margin-left: 80px;
+    }
+    
+    /*
+    .final-icons{
+        
+        height: 60px;
+        margin-left: 20px;
+        width: 400px;
+        background-color: yellow;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        
+    }*/
+    /*.icon-box{
+        background-color: brown;
+        height: 90px;
+        border-radius: 50%;
+        width: 70px;
+    
+    
+    }
+    .twitter{
+        width: 40px;
+    }
+    */
+    
+    
+    .english{
+        width: 290px;
+        text-align: start;
+        height: 60px;
+        font-size: 20px;
+        font-weight: 600;
+        color: white;
+        background-color: black;
+        padding-left: 20px;
+        margin-left: 150px;
+        border-radius: 50px;
+        border: solid 2px ;
+    }
+    .do{
+        width: 20px;
+        
+        margin-left: 90px;
+    
+    }
+
